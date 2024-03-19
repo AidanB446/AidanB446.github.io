@@ -7,7 +7,7 @@
 	position: absolute;
 	top: 11px;
 	height: 8%;
-	width: 11%;
+	width: 10%;
 	background-color: rgb(41, 38, 38);
 
 }
@@ -51,7 +51,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	
 	.headerLogo {
 		display: none;
