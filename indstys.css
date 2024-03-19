@@ -3,15 +3,6 @@
 	background-color: rgb(41, 38, 38);
 }
 
-#container {
-	position: absolute;
-	top: 11px;
-	height: 8%;
-	width: 10%;
-	background-color: rgb(41, 38, 38);
-
-}
-
 .header-right {
 	float: right;
 }
