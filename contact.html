@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Contact Me!</title>	
+		<link rel="stylesheet" type="text/css" href="indstys.css">
+	</head>
+
+	<body id="body1">
+		<div class="header">
+			<center>		
+				<h1 style="color: whitesmoke; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Aidan Bruner</h1>
+				<p style="color: grey;">Aidanbruner789@gmail.com<br>Email me for further contact info</p>
+			</center>	
+
+			<div id="container">
+				<a href="index.html"><img class="headerLogo" src="logo-png.png" style="height: 100%; width: 100%; object-fit: contain;"></a>
+			</div>
+			<div class="header-right">
+				<a href="index.html">Home</a>
+				<a class="active" href="contact.html">Contact</a>
+				<a href="projects.html">Projects</a>
+			</div>
+		</div> 
+		<br>	
+		<div id="contact">
+			<div id="imgContainer">
+				<img style="height: 100%; width: 100%; object-fit: contain;" id="img1" src="logo-png.png">
+			</div>
+			<div id="contactTextBox">
+				<p style="color: gray;">
+				The best way to reach me is through <a href="mailto:Aidanbruner789@gmail.com">email</a></a>. Contributions can be done through github, my github page is very active. <a href="https://github.com/AidanB446" target="_blank">AidanB446</a>					
+
+				</p>
+
+			</div>		
+
+		</div>
+
+	</body>
+	
+	<style>
+
+#contactTextBox {
+	background-color: black;
+	border: 3px solid gray;
+	border-radius: 5px;
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	right: 3%;
+	padding: 10px;
+}	
+
+
+#body1 {
+	background-color: rgb(41, 38, 38);
+}
+
+@keyframes slide-from-left {
+
+	from {
+		left: -400px;
+	} to {
+		left: 10px;
+
+	}
+}
+
+#imgContainer {
+	width: 45%;
+	height: 50%;
+	background-color: rgb(41, 38, 38);
+	position: absolute;
+	left: 10px;	
+	animation-name: slide-from-left;
+	animation-duration: 2s;
+
+}
+
+
+@media (max-width : 500px) {
+
+	#contactTextBox {
+		top: 50%;
+	}	
+
+}
+
+
+	</style>
+
+
+</html>
+
+
+

@@ -1,0 +1,66 @@
+
+#body {
+	background-color: rgb(41, 38, 38);
+}
+
+#container {
+	position: absolute;
+	top: 11px;
+	height: 11%;
+	width: 11%;
+	background-color: rgb(41, 38, 38);
+
+}
+
+.header-right {
+	float: right;
+}
+
+.header-right a {
+	color: white;
+	padding: 10px;
+}
+
+.header {
+	background-color: rgb(41, 38, 38);
+	overflow: hidden;
+	border: 3px solid whitesmoke;
+	padding : 5px
+
+}
+
+.header a {
+	line-height: 25px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header a.active {
+	background-color: rgb(232, 169, 65);
+	color: black;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.header-right a.active:hover {
+	color: white;
+}
+
+.header-right a:hover {
+	background-color: black;
+}
+
+
+@media (max-width: 500px) {
+	
+	.headerLogo {
+		display: none;
+	}
+	
+	.header-right {
+		float: none;
+		padding: 15px;	
+
+	}
+
+}
