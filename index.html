@@ -48,7 +48,7 @@
 		</div>	
 		
 	</body>
-	
+
 	<style>
 
 
@@ -65,14 +65,42 @@
 	padding: 5px;
 }
 
+
+@keyframes expand {
+	from {
+		width : 5%
+	}
+	to {
+		width : 45%
+	}
+}
+
 #logoMain {
 	width: 45%;
+	
+	animation-name: expand;
+	animation-duration : 2s;
+
 }
 
 @media (min-width : 1600px) {
-	
+
+	@keyframes expandsmall{
+		from {
+			width: 1%;
+		}
+		to {
+			width: 20%;
+		}
+
+	}
+
+
 	#logoMain {
 		width: 20%;
+		animation-name: expandsmall;
+		animation-duration: 2s;
+
 	}
 	
 	#smallDescription {
