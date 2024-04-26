@@ -42,7 +42,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	
 	.headerLogo {
 		display: none;
@@ -51,6 +51,11 @@
 	.header-right {
 		float: none;
 		padding: 15px;	
+		
+	}
+	
+	.header-right a {
+		padding: 2px;
 
 	}
 
