@@ -67,6 +67,23 @@
 }
 
 
+#logoMain {
+	width: 45%;
+	animation-name: expand;
+	animation-duration : 2s;
+}
+
+@keyframes expand-small {
+	from {
+		width : 7%
+	}
+	to {
+		width : 45%
+	}
+}
+
+
+
 @keyframes expand {
 	from {
 		width : 7%
@@ -76,12 +93,14 @@
 	}
 }
 
-#logoMain {
-	width: 45%;
-	animation-name: expand;
-	animation-duration : 2s;
-}
 
+@media (max-width : 650px) {
+	#logoMain {
+		width : 45%;
+		animation-name : expand-small;
+		animation-duration : 2.5s;
+	}
+}
 @media (min-width : 1200px) {
 
 	#logoMain {
