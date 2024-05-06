@@ -41,6 +41,25 @@
 	background-color: black;
 }
 
+#smallDescription {
+	max-width: fit-content;	
+	margin-inline: auto;
+	padding: 15px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;	
+
+}
+
+#wow {
+	background-color: black;
+	border-radius: 15px;
+	opacity: 0.6;
+	margin-inline: auto;
+	padding: 15px;
+	max-width: fit-content;
+}
+
+
 
 @media (max-width: 650px) {
 	
@@ -51,7 +70,8 @@
 	.header-right {
 		float: none;
 		padding: 15px;	
-		
+		max-width: fit-content;	
+		margin-inline: auto;	
 	}
 	
 	.header-right a {

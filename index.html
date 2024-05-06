@@ -29,43 +29,39 @@
 					<img id="logoMain" src="./images/logo2.png">
 				</center>
 			</div>
-		
+			<br><br>	
 			<div id="smallDescription">
-				<p>Hello, my name is Aidan Bruner. I am a self taught programmer from 
-				Southern Florida. The majority of my projects are on my <a href="https://github.com/AidanB446" target="_blank">Github Page.</a>
+				<h1>Hello my name is Aidan Bruner</h1>	
+				<h3>I am a self taught programmer, Web Developer, App Developer, and Problem Solver.</h3>		
+			</div><br><br>
+			<div id="wow">
+				<h1 id="codeWritten">367 Lines of Code Written</h1>
+		
+				<script>
 
-				I have experience in building API's, Websites, Python Packages, and many more things.
-				<br><br>
-				I know and have experience writting in many languages including but not limited to: <br><br>
-				- Rust<br>
-				- Python <br>
-				- Java <br>
-				- C# <br>
-				- Javascript (and NodeJS)<br>
-				- Frontend Basics (html, js, css) and Frameworks (ReactJS, VueJS)<br>
+					let code = document.getElementById("codeWritten");
+					
+					let codeNum = 367;
 
-				</p>
-			</div>
+					function update() {
+						code.innerHTML = codeNum.toString() + " Lines of Code Written";
+						codeNum++;
+					}
+
+					setInterval(update, 50);
+
+				</script>
+
+			</div>	
+			
 		</div>	
-
 	</body>
 
 	<style>
 
-
-
 #main {
 	color: whitesmoke;
 }
-
-#smallDescription {
-	background-color: black;
-	border: 2px solid grey;
-	border-radius: 5px;
-	color: grey;
-	padding: 5px;
-}
-
 
 #logoMain {
 	width: 45%;
