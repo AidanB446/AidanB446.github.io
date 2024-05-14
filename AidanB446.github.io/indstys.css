@@ -1,0 +1,82 @@
+
+#body {
+	background-color: rgb(41, 38, 38);
+}
+
+.header-right {
+	float: right;
+}
+
+.header-right a {
+	color: white;
+	padding: 10px;
+}
+
+.header {
+	background-color: rgb(41, 38, 38);
+	overflow: hidden;
+	border: 3px solid whitesmoke;
+	padding : 5px
+
+}
+
+.header a {
+	line-height: 25px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header a.active {
+	background-color: rgb(232, 169, 65);
+	color: black;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.header-right a.active:hover {
+	color: white;
+}
+
+.header-right a:hover {
+	background-color: black;
+}
+
+#smallDescription {
+	max-width: fit-content;	
+	margin-inline: auto;
+	padding: 15px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;	
+
+}
+
+#wow {
+	background-color: black;
+	border-radius: 15px;
+	opacity: 0.6;
+	margin-inline: auto;
+	padding: 15px;
+	max-width: fit-content;
+}
+
+
+
+@media (max-width: 650px) {
+	
+	.headerLogo {
+		display: none;
+	}
+	
+	.header-right {
+		float: none;
+		padding: 15px;	
+		max-width: fit-content;	
+		margin-inline: auto;	
+	}
+	
+	.header-right a {
+		padding: 2px;
+
+	}
+
+}
