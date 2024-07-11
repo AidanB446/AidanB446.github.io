@@ -25,8 +25,9 @@
 				<img style="height: 100%; width: 100%; object-fit: contain;" id="img1" src="./images/logo-png.png">
 			</div>
 			<div id="contactTextBox">
-				<h1>You can contact me through <a class="linkss" href="mailto:Aidanbruner789" target="_blank">Email</a><br>My <a class="linkss" href="https://github.com/AidanB446" target="_blank">Github</a> page is also very active. </h1>
-
+				<center>
+					<h1>You can contact me through <a class="linkss" href="mailto:Aidanbruner789" target="_blank">Email</a><br>My <a class="linkss" href="https://github.com/AidanB446" target="_blank">Github</a> page is also very active. </h1>
+				</center>
 			</div>		
 
 		</div>
@@ -38,7 +39,7 @@
 #contactTextBox {
 	color: whitesmoke;	
 	width: 40%;
-	height: 40%;
+	height: fit-content;
 	position: absolute;
 	right: 3%;
 	padding: 10px;
@@ -67,9 +68,7 @@
 #imgContainer {
 	width: 45%;
 	height: 50%;
-	background-color: rgb(41, 38, 38);
 	position: absolute;
-	left: 10px;	
 	animation-name: slide-from-left;
 	animation-duration: 2s;
 
@@ -79,8 +78,19 @@
 @media (max-width : 500px) {
 
 	#contactTextBox {
-		top: 50%;
+		position: static;	
+		width: 85%;	
+		margin-inline: auto;	
+
 	}	
+	
+	#imgContainer {
+		position: relative;	
+		margin-inline: auto;	
+		animation-name: none;
+		animation-duration: none;	
+		
+	}
 
 }
 
